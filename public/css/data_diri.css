@@ -1,0 +1,96 @@
+@font-face {
+	font-family: "Poppins-Medium";
+	src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Light";
+	src: url("../fonts/poppins/Poppins-Light.ttf");
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.container-data_diri {
+	margin-top: -180px;
+}
+.background {
+	height: 200px;
+	background: #2cb778;
+}
+
+.judul-halaman {
+	color: #fff;
+	font-family: Poppins-Medium;
+	text-align: center;
+}
+
+.judul-halaman h1 {
+	font-size: 35px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card-data_diri {
+	border-radius: 10px;
+	border: 0px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+	margin: 15px;
+}
+
+.img-profile {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.table-data_diri {
+	font-family: Poppins-Medium;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.button {
+	margin: 15px;
+	margin-top: 30px;
+	text-align: right;
+	width: 305px;
+}
+
+.btn-keluar {
+	border-radius: 10px 0px 0px 10px;
+	font-family: poppins-light;
+	height: 42px;
+	font-size: 18px;
+	width: 38%;
+	background: #e46158;
+	color: #fff;
+}
+
+.btn-lanjut {
+	width: 60%;
+	background: #2cb778;
+	border-radius: 0px 10px 10px 0px;
+	height: 42px;
+	font-family: poppins-light;
+	color: #fff;
+	font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+	.table-data_diri {
+		font-family: Poppins-Medium;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.table-data_diri {
+		margin-top: 42px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.table-data_diri {
+		margin-top: 65px;
+	}
+}
